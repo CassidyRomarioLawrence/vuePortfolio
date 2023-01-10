@@ -11,22 +11,22 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <router-link to="/">Home</router-link>
+                        <router-link to="/"><i class="bi bi-house"></i>Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="#about">About</router-link>
+                        <a href="#about"><i class="bi bi-info-circle-fill"></i>About</a>
                     </li>
                     <li class="nav-item">
-                        <router-link to="">Resume</router-link>
+                        <a href="#resume"><i class="bi bi-file-earmark-person"></i>Resume</a>
                     </li>
                     <li class="nav-item">
-                        <router-link to="">Projects</router-link>
+                        <a href="#projects"><i class="bi bi-clipboard-data"></i>Projects</a>
                     </li>
                     <li class="nav-item">
-                        <router-link to="">Testimonials</router-link>
+                        <a href="#testimonials"><i class="bi bi-chat-left-quote-fill"></i>Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <router-link to="">Contact</router-link>
+                        <a href="#contact"><i class="bi bi-telephone"></i>Contact</a>
                     </li>
                 </ul>
             </div>
@@ -44,7 +44,7 @@
 <style scoped>
 a {
     text-decoration: none;
-    margin: 0 1em;
+    margin: 0 0.5em;
     color: white;
     font-weight: bold;
     text-shadow: 2px 2px 2px black;

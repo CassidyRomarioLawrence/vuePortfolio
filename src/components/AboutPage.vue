@@ -1,6 +1,8 @@
 <template>
     <div class="container-fluid d-flex justify-content-center align-items-center about">
         <div class="row">
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-md-6 col-lg-6">
                 <img class="my-image img-fluid" src="https://i.postimg.cc/W4BGz9ts/Profile.png" alt="profile-photo" />
             </div>
@@ -8,10 +10,10 @@
                 <p class="lead text-center para">
                     My name is Cassidy Romario Lawrence, I'm a 24-year-old male currently
                     studying coding <br />
-                    at Life Choices Academy. <br />
+                    at Life Choices Academy. <br /><br />
                     I come from Rocklands Mitchell's Plain. <br />
                     My hobbies include playing video games, soccer and working out
-                    occasionally. <br />
+                    occasionally. <br /><br />
                     I am a friendly individual, always up for new challenges. <br />I
                     always aspire to be a great team player. <br />I possess the ability
                     to work unsupervised, <br />I'm trustworthy, goal driven, punctual and
@@ -31,11 +33,12 @@
 </script>
 
 <style scoped>
-.about{
-        background-image:linear-gradient(black,rgb(100, 194, 225));
+/* .about{
+        background-image:linear-gradient(black,rgb(100, 194, 225),black);
         height: 100vh;
         color: white;
-    }
+        text-shadow: 3px 3px 3px black;
+    } */
 .para{
     font-weight: bold;
 }

@@ -15,6 +15,8 @@ export default {
 }
 </script>
 <style>
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
 #app{
   background-image: url(https://i.postimg.cc/cHpscR7Z/pexels-jaime-reimer-2662116.jpg);
     min-height: 100vh;
