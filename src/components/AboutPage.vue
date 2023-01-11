@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid d-flex justify-content-center align-items-center about">
+    <div class="container-fluid about">
         <div class="row">
         </div>
         <div class="row">
@@ -7,7 +7,7 @@
                 <img class="my-image img-fluid" src="https://i.postimg.cc/W4BGz9ts/Profile.png" alt="profile-photo" />
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6 d-flex align-items-center">
-                <p class="lead text-center para">
+                <p class="lead text-center p-3 para">
                     My name is Cassidy Romario Lawrence, I'm a 24-year-old male currently
                     studying coding <br />
                     at Life Choices Academy. <br /><br />
@@ -33,12 +33,6 @@
 </script>
 
 <style scoped>
-/* .about{
-        background-image:linear-gradient(black,rgb(100, 194, 225),black);
-        height: 100vh;
-        color: white;
-        text-shadow: 3px 3px 3px black;
-    } */
 .para{
     font-weight: bold;
 }
@@ -46,5 +40,10 @@
     border-radius: 4px;
     border: 2.5px solid white;
     width: 30rem;
+}
+.col-xs-12 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
