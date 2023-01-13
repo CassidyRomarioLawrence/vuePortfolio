@@ -1,15 +1,13 @@
 <template>
-    <div class="container my-cards text-center justify-content-center">
-        <!-- <div class="row">
-                <div v-for="item in testimonials" :key="item" class="card m-3" style="width: 18rem;">
-                    <img :src=item.img class="card-img-top test-img" alt="persons-image">
-                    <div class="card-body">
+    <div class="container my-cards">
+                <div v-for="item in testimonials" :key="item" class="card m-3" style="width: 20rem;">
+                    <img :src=item.img class="card-img-top test-img" alt="persons-image" style="width: 10rem;">
+                    <div class="card-body text-center">
                         <h5 class="card-title">{{ item.fullName }}</h5>
                         <h6>{{ item.position }}</h6>
                         <p>{{ item.msg }}</p>
                     </div>
                 </div>
-        </div> -->
     </div>
 </template>
 
@@ -75,7 +73,18 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+.my-cards{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+p{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2px;
+}
 @keyframes fun {
     0% {
         color: black;
