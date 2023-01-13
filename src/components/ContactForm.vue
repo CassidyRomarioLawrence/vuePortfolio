@@ -58,23 +58,6 @@
         </div>
     </form>
     </div>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <i class="bi bi-facebook"></i><a
-                    href="https://www.facebook.com/cassidyromario.lawrence.7" target="_blank">Facebook | Cassidy Romario Lawrence</a>
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/cassidy-romario-lawrence-b671b21b8/"
-                    target="_blank">LinkedIn | Cassidy Romario Lawrence</a>
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <i class="bi bi-instagram"></i><a href="https://www.instagram.com/cassidyromariolawrence/?next=%2F"
-                    target="_blank">Instagram | @cassidyromariolawrence</a>
-            </div>
-        </div>
-    </div>
 </template>
 
 <script>
@@ -91,4 +74,5 @@ a{
 form{
     font-weight: bold;
 }
+
 </style>

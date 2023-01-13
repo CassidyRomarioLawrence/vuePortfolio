@@ -1,7 +1,7 @@
 <template>
     <div class="container mt-3 p-3 about">
         <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-md-6 col-lg-6 d-flex align-items-center">
                 <img class="my-image img-fluid" src="https://i.postimg.cc/W4BGz9ts/Profile.png" alt="profile-photo" />
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6 d-flex align-items-center">

@@ -51,7 +51,7 @@ export default {
   margin-right: auto;
   padding: 20px;
 }
-button {
+.btn {
   padding: 5px 5px;
   border: none;
   outline: none;
@@ -65,7 +65,7 @@ button {
   border-radius: 12px;
   margin: 8px 0;
 }
-button::after {
+.btn::after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -76,7 +76,7 @@ button::after {
   top: 0;
   border-radius: 10px;
 }
-button::before {
+.btn::before {
   content: "";
   background: linear-gradient(45deg,
   #FF0000, #002BFF, #FF00C8, #002BFF,
@@ -95,15 +95,15 @@ button::before {
   opacity: 0;
 }
 
- button:hover::before {
+.btn:hover::before {
    opacity: 1;
  }
 
- button:active:after {
+.btn:active:after {
    background: transparent;
  }
 
- button:active {
+.btn:active {
    color: #000;
    font-weight: bold;
  }
@@ -121,4 +121,47 @@ button::before {
      background-position: 0 0;
    }
  }
+
+ @media screen and (max-width: 360px) {
+  #about p,
+  #resume table,
+  #projects,
+  #testimonials,
+  #contact input,label,button,
+  .socials
+   {
+    font-size: 13px;
+  }
+  #about .my-image{
+    width: 18rem;
+  }
+}
+@media screen and (min-width: 360px) {
+  #about p,
+  #resume table,
+  #projects,
+  #testimonials,
+  #contact input,label,button,
+  .socials
+   {
+    font-size: 15px;
+  }
+  #about .my-image{
+    width: 18rem;
+  }
+}
+@media screen and (min-width: 1080px) {
+  #about p,
+  #resume table,
+  #projects,
+  #testimonials,
+  #contact input,label,button,
+  .socials
+   {
+    font-size: 18px;
+  }
+  #about .my-image{
+    width: 25rem;
+  }
+}
 </style>

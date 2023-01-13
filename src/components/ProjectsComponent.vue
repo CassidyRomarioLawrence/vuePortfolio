@@ -4,9 +4,9 @@
                     <img class="card-img-top" :src=item.img alt="Card image cap" />
                     <div class="card-block text-center">
                         <h4 class="card-title">{{ item.name }}</h4>
-                        <a :href=item.links.github target="_blank" class="card-link"><button><i
+                        <a :href=item.links.github target="_blank" class="card-link"><button class="btn"><i
                                     class="bi bi-github"></i>GitHub</button></a>
-                        <a :href=item.links.netlify target="_blank" class="card-link"><button><i
+                        <a :href=item.links.netlify target="_blank" class="card-link"><button class="btn"><i
                                     class="bi bi-globe"></i>Netlify</button></a>
                     </div>
                 </div>
