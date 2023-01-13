@@ -3,7 +3,7 @@
         <div class="container-fluid d-flex justify-content-center align-items-center" style="height:90vh">
             <div class="row text-center">
                 <h1 class="display-1">CASSIDY ROMARIO LAWRENCE</h1>
-                <h6 class="display-6">Aspiring Developer</h6>
+                <h6 class="display-6">Aspiring Web Developer</h6>
             </div>
         </div>
     </div>

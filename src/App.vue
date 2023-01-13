@@ -29,4 +29,96 @@ export default {
     padding: 0;
     box-sizing: border-box;
 }
+.card{
+      padding-left: auto;
+      padding-right: auto;
+      min-height: 300px;
+      margin-top: 8px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      -webkit-transition: 0.25s box-shadow;
+      transition: 0.25s box-shadow;
+}
+.card:focus,
+.card:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.card-img-top {
+  padding: 20px;
+  margin: auto;
+}
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+button {
+  padding: 5px 5px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+  margin: 8px 0;
+}
+button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(46, 46, 46);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+button::before {
+  content: "";
+  background: linear-gradient(45deg,
+  #FF0000, #002BFF, #FF00C8, #002BFF,
+  #FF0000, #002BFF, #FF00C8, #002BFF);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+ button:hover::before {
+   opacity: 1;
+ }
+
+ button:active:after {
+   background: transparent;
+ }
+
+ button:active {
+   color: #000;
+   font-weight: bold;
+ }
+
+@keyframes glowing {
+   0% {
+     background-position: 0 0;
+   }
+
+   50% {
+     background-position: 400% 0;
+   }
+
+   100% {
+     background-position: 0 0;
+   }
+ }
 </style>

@@ -59,15 +59,6 @@
     </form>
     </div>
 
-    <!-- <div class="container d-flex justify-content-center">
-        <div class="row mt-5">
-            <div class="col m-4">
-                <i class="bi bi-linkedin">LinkedIn</i>
-                <i class="bi bi-facebook">Facebook</i>
-                <i class="bi bi-instagram">Instagram</i>
-            </div>
-        </div>
-    </div> -->
     <div class="container mt-5">
         <div class="row">
             <div class="col-xs-12 col-md-4">
