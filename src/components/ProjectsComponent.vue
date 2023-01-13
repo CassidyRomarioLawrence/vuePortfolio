@@ -1,6 +1,6 @@
 <template>
     <div class="container pro-cards text-center justify-content-center">
-        <div class="row">
+        <!-- <div class="row">
             <div v-for="item in projects" :key="item" class="card m-3" style="width: 18rem;">
                 <img :src="item.img" alt="Image">
                 <div class="container">
@@ -9,7 +9,7 @@
                     <a :href=item.links.netlify target="_blank"><button>Netlify</button></a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
