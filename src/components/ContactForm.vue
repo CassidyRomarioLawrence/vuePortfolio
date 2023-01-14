@@ -1,9 +1,9 @@
 <template>
-    <div class="container-fluid mt-5">
+    <div class="container-fluid contact-info">
     <form id="contact-form" method="POST" action="https://formspree.io/f/xqkjbrag" role="form">
         <div class="messages"></div>
         <div class="controls">
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="form_name">Firstname *</label>
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="form_email">Email *</label>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
                         <label for="form_message">Message *</label>
@@ -51,12 +51,29 @@
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
-                <div class="col-md-12 mt-3">
+                <div class="col-md-12">
                     <input type="submit" class="btn btn-success btn-send" value="Send message" />
                 </div>
             </div>
         </div>
     </form>
+    </div>
+
+    <div class="container socials text-center">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <a
+                    href="https://www.facebook.com/cassidyromario.lawrence.7" target="_blank"><i class="bi bi-facebook"></i> Cassidy Romario Lawrence</a>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <a href="https://www.linkedin.com/in/cassidy-romario-lawrence-b671b21b8/"
+                    target="_blank"><i class="bi bi-linkedin"></i> Cassidy Romario Lawrence</a>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <a href="https://www.instagram.com/cassidyromariolawrence/?next=%2F"
+                    target="_blank"><i class="bi bi-instagram"></i> @cassidyromariolawrence</a>
+            </div>
+        </div>
     </div>
 </template>
 
