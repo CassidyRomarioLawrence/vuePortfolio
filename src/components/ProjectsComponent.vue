@@ -23,7 +23,7 @@
                     name: "JavaScript Site",
                     img: "https://i.postimg.cc/pTpvKyM0/Eccomerce-Java-Project.png",
                     links: {
-                        github: "",
+                        github: "https://github.com/CassidyRomarioLawrence/newEOMP",
                         netlify: "https://lawrencecassidyeompjs.netlify.app/"
                     }
                 },
@@ -60,11 +60,11 @@
                     }
                 },
                 {
-                    name: "",
-                    img: "",
+                    name: "CSS Grid",
+                    img: "https://i.postimg.cc/ZK5HgTFp/CSS-Grid.png",
                     links: {
-                        github: "",
-                        netlify: ""
+                        github: "https://github.com/CassidyRomarioLawrence/CSSGrid",
+                        netlify: "https://css-grid-exercise.netlify.app/"
                     }
                 },
             ]
