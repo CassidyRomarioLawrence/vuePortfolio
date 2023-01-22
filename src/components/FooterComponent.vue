@@ -1,6 +1,6 @@
 <template>
   <footer>
-    &copy; Designed by Cassidy Lawrence 2022
+    &copy; Designed by Cassidy Lawrence 2023
   </footer>
 </template>
 
